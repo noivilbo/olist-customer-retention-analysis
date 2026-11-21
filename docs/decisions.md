@@ -18,7 +18,8 @@
 5. **Atraso só com data de entrega.** 8 pedidos delivered não têm
    order_delivered_customer_date e foram excluídos.
 6. **Avaliações:** 547 pedidos têm mais de uma avaliação; usar a mais
-   recente. 768 pedidos (0,8%) não têm avaliação e ficam fora da H1.
+   recente. 768 pedidos (0,8%) do dataset não têm avaliação; dentro da
+   base analisada (96.203 pedidos) são 643 (0,7%) e ficam fora da H1.
 
 ## Janela de observação
 7. **2016 fica de fora:** 329 pedidos no ano, sem nenhum em novembro.
