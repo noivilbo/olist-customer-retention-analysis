@@ -1,0 +1,11 @@
+.venv/
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+sql/results/*
+!sql/results/.gitkeep
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.vscode/
