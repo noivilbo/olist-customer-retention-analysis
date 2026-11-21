@@ -13,8 +13,8 @@ tende a render mais em outra frente.
 O atraso na entrega reduz a satisfação e a recompra dos clientes?
 
 ## Definições
-**Atraso:** pedido cuja data de entrega real é posterior à data
-estimada. Só entram pedidos com data de entrega registrada.
+**Atraso:** pedido cuja data de entrega real (sem a hora) é posterior
+à data estimada. Só entram pedidos com data de entrega registrada.
 
 **Recompra:** cliente que faz pelo menos um pedido entregue em data
 posterior à do primeiro pedido entregue, em até 180 dias. Pedidos no
@@ -33,8 +33,8 @@ fora.
 ## Hipóteses
 H1. Pedidos entregues com atraso recebem notas menores do que
 pedidos entregues no prazo.
-- Escopo: pedidos entregues e com avaliação (768 pedidos, 0,8%, não
-  têm avaliação e ficam de fora).
+- Escopo: pedidos entregues e com avaliação (643 pedidos da base, 0,7%,
+  não têm avaliação e ficam de fora).
 - Métrica: nota (1 a 5) comparada entre os dois grupos com
   Mann-Whitney, e diferença na proporção de notas 1 e 2, com
   intervalo de confiança.
